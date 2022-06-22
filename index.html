@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-15-p-2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container my-5">
+        <div class="row">
+            <div class="col">
+                <div class="card shadow">
+                    <div class="card-body">
+                        
+                        <h3>Add new Student</h3>
+                        
+                        <div class="masg"></div>
+                        <hr>
+                        <form id="student_form">
+                            <div class="my-3">
+                                <label for="" >Name</label>
+                                <input name="name" type="text" class="form-control">
+                            </div>
+                             <div class="my-3">
+                                <label for="" >Email</label>
+                                <input name="email" type="text" class="form-control">
+                                <span id="emai_validation"></span>
+                            </div>
+
+                             <div class="my-3">
+                                <label for="" >Cell</label>
+                                <input name="cell" type="text" class="form-control">
+                                <span id="cell_validation"></span>
+                            </div>
+                             <div class="my-3">
+                                <label for="" >Username</label>
+                                <input name="username" type="text" class="form-control">
+                            </div>
+                             <div class="my-3">
+                                <label for="" >Gender</label>
+                                <label>
+                                    <input type="radio" name="gender" value="Male">
+                                    Male
+                                </label>
+                                  <label>
+                                    <input type="radio" name="gender" value="female ">
+                                    Female
+                                </label>
+                                 
+                                 
+                            </div>
+                            <div class="my-3">
+                                <label for="" >Coures</label>
+                                <label>
+                                    <input type="checkbox" name="Coures" value="IT">
+                                    IT
+                                </label>
+                                 <label>
+                                    <input type="checkbox" name="Coures" value="Ios">
+                                    Ios
+                                </label>
+                                 <label>
+                                    <input type="checkbox" name="Coures" value="JS">
+                                    JS
+                                </label>
+                                 <label>
+                                    <input type="checkbox" name="Coures" value="PHP">
+                                    PHP
+                                </label>
+                                 
+                                 
+                            </div>
+                            
+                            
+
+                            <div class="my-3">
+                                <button class="btn btn-success w-100"><span class="mimi">Add new</span> <img class="loding_imag" src="https://i.gifer.com/KgkV.gif" alt=""></button>
+                            </div>
+                            
+                        </form>
+                    
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
